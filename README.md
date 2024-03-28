@@ -3,7 +3,7 @@
 </p>
 
 # Footprinting and Reconnaissance
-## Website
+## Websites
 <details>
   <summary>Photon</summary>
   
@@ -17,5 +17,13 @@
   
   ```plaintext
   python grecon.py
+```
+</details>
+
+<details>
+  <summary>Cewl</summary>
+  
+  ```plaintext
+  cewl -d 2 -m 5 https://www.certifiedhacker.com
 ```
 </details>
