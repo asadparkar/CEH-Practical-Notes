@@ -3,20 +3,19 @@
 </p>
 
 # Footprinting and Reconnaissance
-
-## DNS
+## Website
 <details>
-  <summary>Gobuster</summary>
+  <summary>Photon</summary>
   
   ```plaintext
-  gobuster vhost -u http://example.com -w /DNS_wordlist.txt --append-domain
+  python3 photon.py -u http://www.certifiedhacker.com 
 ```
 </details>
 
 <details>
-  <summary>FFUF</summary>
+  <summary>GRecon</summary>
   
   ```plaintext
-  ffuf -u http://example.com -w /DNS-wordlist.txt -H "HOST:FUZZ.example.com"
+  python grecon.py
 ```
 </details>
